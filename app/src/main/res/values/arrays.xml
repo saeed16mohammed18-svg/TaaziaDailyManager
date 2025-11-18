@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nature_array">
+        <item>زيارة ميدانية</item>
+        <item>اجتماع</item>
+        <item>تفقد</item>
+        <item>ورشة عمل</item>
+        <item>لقاء مجتمعي</item>
+        <item>زيارة تفقدية</item>
+        <item>اجتماع تنسيقي</item>
+    </string-array>
+    
+    <string-array name="project_types">
+        <item>المباني الصحية</item>
+        <item>الطرق الإسفلتية</item>
+        <item>الطرق الحجرية</item>
+        <item>الآبار</item>
+        <item>السدود</item>
+        <item>العبارات</item>
+        <item>مشاريع الصرف الصحي</item>
+        <item>الخزانات المائية</item>
+        <item>المدارس</item>
+        <item>المنشآت الحكومية</item>
+    </string-array>
+    
+    <string-array name="issue_types">
+        <item>مشكلة</item>
+        <item>مقترح</item>
+    </string-array>
+    
+    <string-array name="issue_categories">
+        <item>صيانة</item>
+        <item>تمويل</item>
+        <item>أمن وحوكمة</item>
+        <item>بيروقراطية</item>
+        <item>تجهيزات فنية</item>
+        <item>كادر بشري</item>
+        <item>تلف أو ضياع أصول</item>
+        <item>اختلاس أو نهب</item>
+    </string-array>
+    
+    <string-array name="priority_array">
+        <item>عاجل</item>
+        <item>متوسط</item>
+        <item>طويل الأمد</item>
+    </string-array>
+    
+    <string-array name="status_array">
+        <item>مفتوح</item>
+        <item>يتم العمل</item>
+        <item>مغلق</item>
+    </string-array>
+</resources>
