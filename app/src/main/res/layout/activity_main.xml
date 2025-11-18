@@ -1,1 +1,54 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F5F5F5"
+    android:gravity="center">
+    
+    <TextView
+        android:text="النشاط اليومي - التعزية"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#0D47A1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"/>
+    
+    <Button
+        android:id="@+id/btn_activities"
+        android:text="📋 الأنشطة اليومية"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#1976D2"
+        android:textSize="16sp"/>
+    
+    <Button
+        android:id="@+id/btn_evaluations"
+        android:text="🔍 نزولات التقييم"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#388E3C"
+        android:textSize="16sp"/>
+    
+    <Button
+        android:id="@+id/btn_issues"
+        android:text="⚠️ المشكلات والمقترحات"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#F57C00"
+        android:textSize="16sp"/>
+    
+    <Button
+        android:id="@+id/btn_reports"
+        android:text="📊 التقارير التجميعية"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7B1FA2"
+        android:textSize="16sp"/>
+</LinearLayout>
