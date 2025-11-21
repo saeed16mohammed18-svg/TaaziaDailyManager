@@ -1,1 +1,130 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:text="نزولات التقييم"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+        
+        <TextView
+            android:text="نوع المشروع:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+        <Spinner
+            android:id="@+id/sp_project_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/project_types"
+            android:layout_marginBottom="10dp"/>
+        
+        <TextView
+            android:text="اسم المشروع / المنشأة:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+        <EditText
+            android:id="@+id/et_project_name"
+            android:hint="أدخل اسم المشروع"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        
+        <TextView
+            android:text="العزلة:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+        <EditText
+            android:id="@+id/et_isolation"
+            android:hint="أدخل اسم العزلة"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        
+        <TextView
+            android:text="القرية:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+        <EditText
+            android:id="@+id/et_village"
+            android:hint="أدخل اسم القرية"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        
+        <TextView
+            android:text="نسبة الإنجاز (0-100):"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+        <EditText
+            android:id="@+id/et_completion_rate"
+            android:hint="0-100"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        
+        <TextView
+            android:text="المشكلات الملاحظة:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+        <EditText
+            android:id="@+id/et_issues"
+            android:hint="اذكر المشكلات"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="10dp"/>
+        
+        <TextView
+            android:text="الحلول المقترحة:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+        <EditText
+            android:id="@+id/et_solutions"
+            android:hint="الحلول الممكنة"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="10dp"/>
+        
+        <TextView
+            android:text="التوصيات:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+        <EditText
+            android:id="@+id/et_recommendations"
+            android:hint="التوصيات النهائية"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="20dp"/>
+        
+        <Button
+            android:id="@+id/btn_save"
+            android:text="💾 حفظ التقييم"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</ScrollView>
